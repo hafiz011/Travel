@@ -1,0 +1,103 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+#about {
+    position: relative;
+    padding: 45px 0 60px 0;
+
+}
+
+    #about .row {
+        margin-bottom: 60px;
+    }
+
+        #about .row:last-child {
+            margin-bottom: 0;
+        }
+
+    #about .img-col,
+    #about .content-col {
+        position: relative;
+        top: 50%;
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    #about .img-col {
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+        #about .img-col img {
+            border-radius: 30px;
+            transition: 0.3s;
+            width: 100%;
+        }
+
+        #about .img-col:hover img {
+            -ms-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+    #about .content-col h3 {
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+@media (max-width: 767.98px) {
+    #about .content-col {
+        text-align: center;
+    }
+
+        #about .content-col h3 {
+            margin-top: 15px;
+        }
+}
+
+#about .content-col p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#about .content-col a {
+    display: inline-block;
+    background: #222222;
+    font-weight: 400;
+    color: #00CED1;
+    padding: 8px 30px;
+    border-radius: 30px;
+}
+
+    #about .content-col a:hover {
+        background: #00CED1;
+        color: #222222;
+    }
+
+    #about .content-col a:focus {
+        color: #fff;
+    }

@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Flyjaatra</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Site Styles -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Flyjaatra.styles.css" asp-append-version="true" />
+
+    <link href="~/lib/animate/animate.css" rel="stylesheet" />
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet" />
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome and Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    @RenderSection("Styles", false)
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Topbar -->
+        <div class="container-fluid bg-dark text-white py-2 d-none d-lg-block">
+            <div class="container d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                    <a href="https://maps.app.goo.gl/5w5aQkCmVD4qJKDZ7" class="text-white text-decoration-none me-4">
+                        <i class="fas fa-map-marker-alt text-primary me-2"></i> Find A Location
+                    </a>
+                    <a href="tel:0123456789" class="text-white text-decoration-none me-4">
+                        <i class="fas fa-phone-alt text-primary me-2"></i> 0123456789
+                    </a>
+                    <a href="mailto:example@email.com" class="text-white text-decoration-none">
+                        <i class="fas fa-envelope text-primary me-2"></i> example@email.com
+                    </a>
+                </div>
+                <div>
+                    <a href="#" class="text-white text-decoration-none me-3">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-white text-decoration-none me-3">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-white text-decoration-none me-3">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-white text-decoration-none">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                    <img src="~/images/logo.webp" alt="Flyjaatra Logo" style="height:55px;" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "Home")">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("About", "Home")">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "Visa")">Visa Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Packages", "Hajj")">Hajj Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Packages", "Umrah")">Umrah Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Packages", "Tour")">Tour Packages</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="@Url.Action("Testimonial", "Home")">Testimonial</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Blog", "Home")">Blog</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("FQAs", "Home")">FAQs</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "Contact")">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-4">
+        @RenderBody()
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, corporis!</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="@Url.Action("Index", "Home")" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> Room 207, MIU</li>
+                        <li><i class="fas fa-envelope"></i> support@flyjaatra.com</li>
+                        <li><i class="fas fa-phone"></i> 123-456-7890</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2024 Flyjaatra. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Initialize WOW.js
+        new WOW().init();
+    </script>
+    @RenderSection("Scripts", false)
+</body>
+</html>
