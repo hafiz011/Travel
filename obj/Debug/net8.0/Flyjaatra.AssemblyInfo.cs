@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Flyjaatra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb8b5a294eb9da5ce9524d624b20d65c5918699d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Flyjaatra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Flyjaatra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

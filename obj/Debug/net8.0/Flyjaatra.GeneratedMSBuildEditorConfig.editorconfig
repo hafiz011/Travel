@@ -17,39 +17,39 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Flyjaatra
 build_property.RootNamespace = Flyjaatra
-build_property.ProjectDir = D:\Clind\Flyjaatra\
+build_property.ProjectDir = D:\MySite\Flyjaatra\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Clind\Flyjaatra
+build_property.MSBuildProjectDirectory = D:\MySite\Flyjaatra
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Clind/Flyjaatra/Views/Home/About.cshtml]
+[D:/MySite/Flyjaatra/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Clind/Flyjaatra/Views/Home/Index.cshtml]
+[D:/MySite/Flyjaatra/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Clind/Flyjaatra/Views/Shared/Error.cshtml]
+[D:/MySite/Flyjaatra/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Clind/Flyjaatra/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/MySite/Flyjaatra/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Clind/Flyjaatra/Views/_ViewImports.cshtml]
+[D:/MySite/Flyjaatra/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Clind/Flyjaatra/Views/_ViewStart.cshtml]
+[D:/MySite/Flyjaatra/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Clind/Flyjaatra/Views/Shared/_Layout.cshtml]
+[D:/MySite/Flyjaatra/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-21zcjz2e2p
